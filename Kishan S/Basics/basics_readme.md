@@ -1,4 +1,4 @@
-## Basics od C++
+## Basics of C++
 
 ### Input/Output in C++
 
