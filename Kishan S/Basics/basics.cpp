@@ -136,16 +136,16 @@ using namespace std;
 
 // Arrays
 
-int main(){
-    int arr[5];
-    cout << "Enter 5 numbers to store in an array: ";
-    cin >> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4];
-    cout << "Entered numbers are: ";
-    cout << arr[0] << " " << arr[1] << " " << arr[2] << " " << arr[3] << " " << arr[4] << endl;
-    cout << "Array at index 0: " << arr[0] << endl;
-    cout << "Array at index 1: " << arr[1] << endl;
-    cout << "Array at index 2: " << arr[2] << endl;
-    cout << "Array at index 3: " << arr[3] << endl;
-    cout << "Array at index 4: " << arr[4] << endl;
-    return 0;
-}
+// int main(){
+//     int arr[5];
+//     cout << "Enter 5 numbers to store in an array: ";
+//     cin >> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4];
+//     cout << "Entered numbers are: ";
+//     cout << arr[0] << " " << arr[1] << " " << arr[2] << " " << arr[3] << " " << arr[4] << endl;
+//     cout << "Array at index 0: " << arr[0] << endl;
+//     cout << "Array at index 1: " << arr[1] << endl;
+//     cout << "Array at index 2: " << arr[2] << endl;
+//     cout << "Array at index 3: " << arr[3] << endl;
+//     cout << "Array at index 4: " << arr[4] << endl;
+//     return 0;
+// }

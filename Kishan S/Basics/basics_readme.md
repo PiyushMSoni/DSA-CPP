@@ -247,10 +247,107 @@ endl is used to add a new line to the output.
 - `break`: break statement
 - `continue`: continue statement
 
+## Arrays
+
+### Creating Arrays
+
+- `int arr[5];`: creates an array of 5 integers
+- `int arr[5] = {1, 2, 3, 4, 5};`: creates an array of 5 integers with initial values
+- `int arr[] = {1, 2, 3, 4, 5};`: creates an array of 5 integers with initial values
+
+### Accessing Array Elements
+
+- `arr[0]`: first element of the array
+- `arr[1]`: second element of the array
+- `arr[2]`: third element of the array
+
+### Modifying Array Elements
+
+- `arr[0] = 10;`: sets the first element of the array to 10
+
+### Array Length
+
+- `sizeof(arr) / sizeof(arr[0])`: returns the length of the array
+- `sizeof(arr)`: returns the size of the array in bytes
+
+## Pointers
+
+### Creating Pointers
+
+- `int* ptr;`: creates a pointer to an integer
+- `double* ptr;`: creates a pointer to a double-precision floating-point number
+- `char* ptr;`: creates a pointer to a character
+- `void* ptr;`: creates a pointer to a void type
+
+### Accessing Pointer Values
+
+- `*ptr`: dereferences the pointer to access the value it points to
+- `ptr[0]`: accesses the first element of the array pointed to by the pointer
+
+### Modifying Pointer Values
+
+- `*ptr = 10;`: sets the value pointed to by the pointer to 10
+
+### Pointer Arithmetic
+
+- `ptr + 1`: increments the pointer by 1 byte
+- `ptr - 1`: decrements the pointer by 1 byte
+- `ptr + n`: increments the pointer by n bytes
+- `ptr - n`: decrements the pointer by n bytes
+
 ## Functions
 
-### Function Declarations
+### Creating Functions
 
-- Define a function using `void` return type and function name.
-- Define a function using `int` return type and function name.
-- Define a function using `double` return type and function name.
+- `int add(int a, int b) { return a + b; }`: creates a function that adds two integers and returns the result
+- `void printHello() { std::cout << "Hello, world!" << std::endl; }`: creates a function that prints "Hello, world!"
+
+### Calling Functions
+
+- `add(1, 2)`: calls the `add` function with arguments 1 and 2
+- `printHello()`: calls the `printHello` function
+
+## Classes and Objects
+
+### Creating Classes and Objects
+
+- `class MyClass { ... };`: creates a class named `MyClass`
+- `MyClass obj;`: creates an object of type `MyClass`
+
+### Accessing Class Members
+
+- `obj.member;`: accesses the member variable `member` of the object `obj`
+- `obj.method();`: calls the method `method` of the object `obj`
+
+### Modifying Class Members
+
+- `obj.member = value;`: sets the value of the member variable `member` of the object `obj` to `value`
+
+### Creating Constructors and Destructors
+
+- `MyClass() { ... }`: constructor
+- `~MyClass() { ... }`: destructor
+
+### Calling Constructors and Destructors
+
+- `MyClass obj;`: creates an object of type `MyClass` using the constructor
+- `~MyClass obj;`: destroys the object `obj` using the destructor
+- `MyClass obj = MyClass();`: creates an object of type `MyClass` using the constructor and assigns it to `obj`
+- `MyClass obj = MyClass(1, 2);`: creates an object of type `MyClass` using the constructor and assigns it to `obj`
+- `delete obj;`: deletes the object `obj`
+- `createObject();`: creates an object of type `MyClass` using the constructor and returns a pointer to it
+
+### Inheritance
+
+- `class DerivedClass : public BaseClass { ... }`: creates a derived class named `DerivedClass` that inherits from the base class `BaseClass`
+- `DerivedClass obj;`: creates an object of type `DerivedClass`
+- `DerivedClass obj = DerivedClass();`: creates an object of type `DerivedClass` using the constructor and assigns it to `obj`
+
+- `DerivedClass obj = BaseClass();`: creates an object of type `DerivedClass` using the constructor and assigns it to `obj`
+
+### Polymorphism
+
+- `class BaseClass { ... };`: creates a base class named `BaseClass`
+- `class DerivedClass : public BaseClass { ... };`: creates a derived class named `DerivedClass` that inherits from the base class `BaseClass`
+- `BaseClass* obj = new DerivedClass();`: creates a pointer of type `BaseClass` that points to an object of type `DerivedClass`
+- `delete obj;`: deletes the object pointed to by the pointer `obj`
