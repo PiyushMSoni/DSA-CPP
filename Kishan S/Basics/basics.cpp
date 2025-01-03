@@ -136,6 +136,8 @@ using namespace std;
 
 // Arrays
 
+// 1D Array
+
 // int main(){
 //     int arr[5];
 //     cout << "Enter 5 numbers to store in an array: ";
@@ -149,3 +151,14 @@ using namespace std;
 //     cout << "Array at index 4: " << arr[4] << endl;
 //     return 0;
 // }
+
+// 2D Array
+
+int main(){
+    int arr[3][4];
+
+    arr[3][4] = 74;
+    cout << arr[3][4];
+    return 0;
+}
+
