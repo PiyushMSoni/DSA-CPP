@@ -20,3 +20,14 @@ using namespace std;
 //     cout << "Sum: " << a + b << endl; // Sum: 30
 //     return 0;
 // }
+
+// if_else
+
+int main(){
+    int x=10;
+    if(x>5){
+        cout << "x is greater than 5" << endl; // x is greater than 5
+    }else{
+        cout << "x is less than or equal to 5" << endl;
+    }
+}
