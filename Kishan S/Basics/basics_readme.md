@@ -42,7 +42,7 @@ endl is used to add a new line to the output.
     std::cout << "Hello, " << name << "!" << std::endl;
     ```
 
-# include <bits/stdc++.h> in your code directory before using any other headers.
+### include <bits/stdc++.h> in your code directory before using any other headers.
 
 ## Data Types
 
