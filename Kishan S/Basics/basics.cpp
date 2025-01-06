@@ -154,11 +154,11 @@ using namespace std;
 
 // 2D Array
 
-int main(){
-    int arr[3][4];
+// int main(){
+//     int arr[3][4];
 
-    arr[3][4] = 74;
-    cout << arr[3][4];
-    return 0;
-}
+//     arr[3][4] = 74;
+//     cout << arr[3][4];
+//     return 0;
+// }
 
